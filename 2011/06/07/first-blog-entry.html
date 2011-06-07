@@ -4,30 +4,38 @@
   </head>
 
   <body>
-	 <div class="post">
+	<section>
+	 <article>
+  
+  <header>
   <h2>my first post</h2>
-  <div class="date">07.06.2011</div>
+  <time>07.06.2011</time>
+  <header> 
+
   <p>Test message</p>
-  <div class="post_bottom">
+  
+  <footer>
     <h2><a href="/#/2011/06/07/first-blog-entry">Back</a></h2>
-  </div>
-</div>
-<!-- Disqus comments engine -->
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'ivlivl';
-    var disqus_title = 'my first post';
-    var disqus_url = 'http://ivl.github.com' + '/2011/06/07/first-blog-entry.html';
-    var disqus_id = '/2011/06/07/first-blog-entry';
-    //alert('disqus-title:' + disqus_title + '\ndiscus-url' + disqus_url +'\ndiscus_id' + disqus_id);
+    <!-- Disqus comments engine -->
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    var disqus_shortname = 'ivlgithubblog';
+	    var disqus_title = 'my first post';
+	    var disqus_url = 'http://ivl.github.com' + '/2011/06/07/first-blog-entry.html';
+	    var disqus_id = '/2011/06/07/first-blog-entry';
+	    alert('disqus-title:' + disqus_title + '\ndiscus-url' + disqus_url +'\ndiscus_id' + disqus_id);
 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </footer>
+</article>
 
+
+	</section>
   </body>	 	
 </html>
