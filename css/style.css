@@ -144,6 +144,7 @@ body {
 
 }
 /* 1 column layout */
+/*
 @media screen and (max-width: 760px) {
 	#pagewrap {
 			max-width: 90%;
@@ -170,6 +171,7 @@ body {
 			}
 		
 }
+*/
 /* small 1 column */
 @media screen and (max-width: 600px) {
 }
